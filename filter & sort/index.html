@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="filters">
+        <div>
+            Sort By:
+            <select class="sort-by">
+                <option value="">Select one</option>
+                <option value="price">Price</option>
+                <option value="engine">Engine</option>
+            </select>
+        </div>
+        <div>
+            Sort Order:
+            <select class="sort-order">
+                <option value="">Select one</option>
+                <option value="asc">Ascending (low to high)</option>
+                <option value="desc">Descending (high to low)</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="cars"></div>
+
+    <script src="./filter.js" defer></script>
+</body>
+
+</html>

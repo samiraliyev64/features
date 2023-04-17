@@ -1,0 +1,24 @@
+.cars {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.price {
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.engine,
+.name {
+    font-size: 17px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
